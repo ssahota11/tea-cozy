@@ -1,6 +1,9 @@
 /* Universal Styles */
 html {
-
+    font-family: Helvetica, sans-serif, Arial;
+    color: seashell;
+    background-color: black;
+    text-align: center;
 }
 
 /* Header */
@@ -13,8 +16,30 @@ main.banner {
 }
 
 /* Nav */
-nav {
+.nav {
+    display: flex;
+    justify-content: space-between; /* Adjust as needed */
+    align-items: center; /* Align items vertically in the center */
+    
+}
 
+.nav ul {
+    display: flex;
+    list-style: none;
+    text-decoration: underline;
+    margin-right: 10px;
+    text-sp
+
+}
+
+.nav li {
+    margin-right: 10px;
+    
+}
+
+.nav img {
+    margin-left: 10px;
+    
 }
 
 
