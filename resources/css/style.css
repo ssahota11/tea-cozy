@@ -90,4 +90,47 @@ header {
 }
 
 
+/* Location */
+
+.location {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*cn5v3m*_ga*ODk2MDMzNzA0My4xNjg3MjEzNzM1*_ga_3LRZM6TM9L*MTcwNzAwNjUwNS41OS4xLjE3MDcwMDg1MzQuNTMuMC4w);
+    display: flex;
+    height: 500px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-height: 100%;
+    overflow: scroll;
+   
+}
+
+.box { 
+    display: flex;
+    width: auto; 
+    max-height: 200px;
+    margin: 20px;
+    padding: 10px 50px;
+    background-color: black;
+    flex-direction: column;
+}
+
+
+/* Contact */
+
+.contact {
+    display: flex;
+    height: 200px; 
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 0px;
+}
+   
+
 /* Footer */
+
+.footer {
+    text-align: left;
+    margin-left: 20px;
+
+}
