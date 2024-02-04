@@ -1,7 +1,7 @@
 /* Universal Styles */
 html {
     font-family: Helvetica, sans-serif, Arial;
-    color: seashell;
+    color: rgb(213, 207, 202);
     background-color: black;
     text-align: center;
 }
@@ -11,9 +11,6 @@ header {
 
 }
 
-main.banner {
-
-}
 
 /* Nav */
 .nav {
@@ -28,24 +25,37 @@ main.banner {
     list-style: none;
     text-decoration: underline;
     margin-right: 10px;
-    text-sp
 
 }
 
 .nav li {
-    margin-right: 10px;
-    
+    margin-right: 10px;   
 }
 
 .nav img {
     margin-left: 10px;
-    
 }
 
 
 
-/* Section */
+/* Header */
+.header {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1vgkalz*_ga*ODk2MDMzNzA0My4xNjg3MjEzNzM1*_ga_3LRZM6TM9L*MTcwNzAwNjUwNS41OS4xLjE3MDcwMDY1MTEuNTQuMC4w);
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    margin: 20px;
+}
 
+.rectangle {
+    display: flex;
+    background-color: black;
+    flex-direction: column; 
+    width: 100%;
+
+}
 
 /* Section */
 
