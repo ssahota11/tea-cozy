@@ -6,11 +6,6 @@ html {
     text-align: center;
 }
 
-/* Header */
-header {
-
-}
-
 
 /* Nav */
 .nav {
@@ -28,13 +23,13 @@ header {
 .nav ul {
     display: flex;
     list-style: none;
-    text-decoration: underline;
     margin-right: 10px;
 
 }
 
 .nav li {
-    margin-right: 10px;   
+    margin-right: 10px; 
+    padding-right: 10px;  
 }
 
 .nav img {
@@ -133,4 +128,16 @@ header {
     text-align: left;
     margin-left: 20px;
 
+}
+
+
+/* Hover State */
+
+a {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
 }
